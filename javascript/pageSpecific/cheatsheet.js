@@ -4,7 +4,7 @@ window.onload = function () {
     var clickToHonk = document.getElementById('honk');
 
     clickToHonk.onclick=function(){
-        var honk = new Audio('audio/clownhonk.mp3');
+        var honk = new Audio('audio/clownhonk.wav');
         honk.play();
     }
 }
